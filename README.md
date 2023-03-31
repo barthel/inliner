@@ -1,8 +1,13 @@
+# @barthel/inliner
+
+This is a fork of `inliner` with modifications aimed to use it with `reveal.js` for the creation of self-contained presentations.
+The main modification is the enabling of `section` and `data-background-image` attribute support.
+
+Bellow is the original readme.
+
+---
+
 # Inliner
-
-Turns your web page to a single HTML file with everything inlined - perfect for appcache manifests on mobile devices that you want to reduce those http requests.
-
-[![Build Status](https://travis-ci.org/remy/inliner.svg)](https://travis-ci.org/remy/inliner)
 
 ## What it does
 

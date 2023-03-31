@@ -31,4 +31,6 @@
     $ inliner -H 'User-Agent: Inliner Custom' https://httpbin.org/headers
     $ cat local-file.html | inliner
 
-  For more details see http://github.com/remy/inliner/
+  For more details see http://github.com/barthel/inliner
+
+  This is a fork by barthel (https://github.com/barthel) of the original inliner (https://github.com/remy/inliner)
