@@ -84,7 +84,7 @@ test('inliner fixtures', function fixtureTests(t) {
   files = files.filter(function filter(file) {
     return file.indexOf('.src.') !== -1;
   }).filter(function filter(file) {
-    // helps to diganose a single file
+    // helps to diagnose a single file
     return testFilter ?
            file.indexOf(testFilter + '.src.html') === 0 :
            file;
